@@ -2,8 +2,9 @@ import React from 'react';
 import Image from 'next/image';
 import { signIn, signOut, useSession } from "next-auth/react"
 import { useRouter } from "next/router"
-import { useSelector } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import { selectItems } from '../slices/basketSlice';
+
 
 import {
     Bars3Icon,
