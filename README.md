@@ -1,4 +1,7 @@
 # Amazon clone
+
+## Stack
+
 1) ``` React.js```
 2) ``` Next.js```
 1) ``` Tailwind.css```
